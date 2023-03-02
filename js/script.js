@@ -13,7 +13,7 @@ const displayMeals = (data) => {
     // console.log(mealsData);
     const newElement = document.createElement("div");
     newElement.classList.add("card");
-    newElement.classList.add("card-side");
+    newElement.classList.add("lg:card-side");
     newElement.classList.add("bg-base-100");
     newElement.classList.add("shadow-xl");
     newElement.innerHTML = `
